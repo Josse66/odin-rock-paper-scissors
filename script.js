@@ -18,6 +18,14 @@ function getComputerChoice(){
     return 'scissors' // si no es 1 ni 2 entonces es scissors
 }
 
+//función que le pide su elecció al jugador y la retorna 
+function getHumanChoice(){
+    //usando prompt para solicitar la elección
+    const humanChoice = prompt('¿Rock, paper or scissors?')
+    //retornando la eleccion
+    return humanChoice
+}
+
 //declaramos la función que crea el juego
 function playGame(){
     //declarando los marcadores humano y computadora inicializados en 0
