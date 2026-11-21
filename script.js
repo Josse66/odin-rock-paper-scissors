@@ -63,7 +63,7 @@ function playGame() {
     } else if (humanScore > computerScore) {
         console.log('HUMAN IS A WINNER!! THE END OF THE COMPUTERS') // si el humano gana
     } else {
-        console.log('COMPUTER IS THE WINNER!! THE END OF THE HUMANS') //si no gana el humano gana la computadora
+        console.log('COMPUTER IS THE WINNER!! THE END OF THE HUMANS') //si no gana el humano, gana la computadora
     }
 }
 
